@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK TRAVELS</title>
+    <link rel="shortcut icon" href="https://thumbs.dreamstime.com/b/golden-u-k-uk-luxury-letter-logo-icon-graceful-royal-style-gold-alphabet-arts-195199283.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\UDHAYAKUMAR\OneDrive\Documents\Academic Year 2022 - 2023, Semester 5\Web Technology Lab\Record 4\Bootstrap UI Framework.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <a class="navbar-brand m-3" href="#">
+          <img src="https://thumbs.dreamstime.com/b/golden-u-k-uk-luxury-letter-logo-icon-graceful-royal-style-gold-alphabet-arts-195199283.jpg" height="50" width="50"> <span class="text-light">UK TRAVELS</span> 
+        </a>
+        <button class="navbar-toggler btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto p-4">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Updates</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">What's new</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Upcoming</a>
+
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login/Sign Up</a>
+
+            </li>
+            <form class="d-flex ">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-info ms-3" type="submit">Search</button>
+            </form>
+
+          </ul>
+        </div>
+      </nav>
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://wallpaperaccess.com/full/2636894.jpg" height="550"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/pUOcp9FnC_g/maxresdefault.jpg" height="550"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://sm.mashable.com/mashable_in/seo/default/7_k745.jpg" height="550" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.moneycontrol.com/static-mcnews/2022/02/SpiceJet-1.jpg?impolicy=website&width=1600&height=900" height="550" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://blogbox.indianeagle.com/wp-content/uploads/2021/05/Air-Vistara-1.jpg" height="550" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://s28477.pcdn.co/wp-content/uploads/2020/06/AirAsia_India_3.jpg" height="550" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class ="container-fluid">
+        <div class ="row"
+        <div class="col-sm-6 border border-primary m-2">
+            <h3 class="text-center text-primary mt-4">Give Departure and Arrival info of southern airways</h3>
+            <form>
+                        <label for="tf1">Departure:</label>
+                        <select  name="Departure" id="Departure">
+                            <option value="Tamil Nadu">Tamil Nadu (chennai)</option>
+                            <option value="Kerala">Kerala(cochin)</option>
+                            <option value="Karnataka">Karnataka(Bangaluru)</option>
+                            <option value="Andhra pradesh">Andhra Pradesh(Vijayawada)</option><br><br>
+                        </select>
+                            <label for="tf1">Arrival:</label>  
+                            <select name="Arival" id="Arrival">
+                                    <option value="Tamil Nadu">Tamil Nadu (Coimbatore)</option>
+                                    <option value="Kerala">Kerala(Trivandrum)</option>
+                                    <option value="Karnataka">Karnataka(mysore)</option>
+                                    <option value="Andhra pradesh">Andhra Pradesh(Visakhapatnam)</option><br><br>
+                                </select>
+                            <label for="Date">Date:</label>
+                            <input type="date" id="Date" name="Date">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 border border-primary m-2">
+            <h3 class="text-center text-primary mt-4">Registration Form</h3>
+            <form>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <label for="tf1">Name:</label>
+                  <input type="Name" class="form-control" id="tf1">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <label for="tf2">Email:</label>
+                  <input type="email" class="form-control" id="tf2"> 
+                </div>
+             </div> 
+                <div class="row mb-3">
+                 <div class="col-sm-6">
+                   <label for="tf3">Password:</label>
+                   <input type="password" class="form-control" id="tf3">
+                 </div>
+                </div>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <label for="tf4">Re-enter Password:</label>
+                  <input type="password" class="form-control" id="tf4">
+                </div>               
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <label for="tf5">Phone Number:</label>
+                  <input type=" phone number" class="form-control" id="tf5">
+                </div>                
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <label for="tf6">Offer Code:</label>
+                  <input type="Name" class="form-control" id="tf6">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <label for="tf7">Click enter to get OTP :</label> <br>
+                  <button type="Enter" class="btn btn-primary">Enter</button> <br>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <label for="tf7">Enter OTP Number:</label>
+                  <input type="otp number" class="form-control" id="tf7"> <br>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <div class="col-sm-6">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label for="gridCheck">
+                      Terms and Conditions
+                    </label>
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col-sm-12 text-center">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+            
+          </div>
+        
+          <div class="col-sm-5 m-4 ">
+            <table class="table table-bordered table-hover text-center">
+              <thead>
+                <tr class="bg-primary text-white">
+                  <th>S.No</th>
+                  <th>Airlines</th>
+                  <th>Departure Time</th>
+                  <th>Arrival Time</th>
+                  <th>Price</th>
+                </tr>                
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Air India</td>
+                  <td>08:00 AM</td>
+                  <td>10:30 AM</td>
+                  <td>1599/-</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Indigo</td>
+                  <td>10:00 AM</td>
+                  <td>12:30 PM</td>
+                  <td>2235/-</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Spicejet</td>
+                  <td>09:00 PM</td>
+                  <td>11:00 PM</td>
+                  <td>3499/- </td>  
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Vistara</td>
+                  <td>00:00 AM</td>
+                  <td>02:30 AM</td>
+                  <td>2799/-</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>Air Asia</td>
+                  <td>04:00 AM</td>
+                  <td>07:00 AM</td>
+                  <td>4000/-</td>
+                </tr>
+                
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    
+</body>
+</html>
